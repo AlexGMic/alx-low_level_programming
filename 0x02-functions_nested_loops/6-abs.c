@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 * _abs - converts a negative number to positive using an absoulte value
-*@n: int type number
-*Return - converted number
+*@i: int type number
+*Return - absolute value of @i
 */
 
 int _abs(int i)
