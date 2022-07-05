@@ -4,7 +4,7 @@
 *Return - converted number
 */
 
-int_abs(int i)
+int _abs(int i)
 {
 if (i < 0)
 {
