@@ -20,6 +20,5 @@ while (n > x)
 printf("%d, ", n);
 n--;
 }
-printf("%d", x);
-_putchar('\n');
+printf("%d\n", x);
 }
