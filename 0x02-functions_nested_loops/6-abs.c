@@ -3,7 +3,7 @@
 *_abs - return computed absolute value
 *@i: int type number
 *
-*Return - integer
+*Return: integer
 */
 
 int _abs(int i)
