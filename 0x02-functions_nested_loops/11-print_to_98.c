@@ -9,16 +9,17 @@
 
 void print_to_98(int n)
 {
-while (n < 98)
+int x = 98;
+while (n < x)
 {
 printf("%d, ",n);
 n++;
 }
-while (n > 98)
+while (n > x)
 {
 printf("%d, ",n);
 n--;
 }
-printf("98");
+printf("%d", x);
 _putchar('\n');
 }
