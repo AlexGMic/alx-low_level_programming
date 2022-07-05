@@ -2,6 +2,7 @@
 
 /**
 *print_last_digit - takes an input and prints the last digit of the number
+*@i: int type number
 *
 *Return: last digit
 */
