@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-*_abs - converts a negative number to positive using an absoulte value
+* _abs - converts a negative number to positive using an absoulte value
+*@n: int type number
 *Return - converted number
 */
 
@@ -14,5 +15,5 @@ else
 {
 i = i;
 }
-return i;
+return (i);
 }
