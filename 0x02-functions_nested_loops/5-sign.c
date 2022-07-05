@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+*Checks for positive, zero and negetive numbers
+*/
+
 int print_sign(int n)
 {
 if(n>0)

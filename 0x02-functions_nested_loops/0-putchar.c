@@ -1,5 +1,7 @@
 #include "main.h"
-//Prints _putchar
+/**
+*Prints _putchar
+*/
 
 int main()
 {
