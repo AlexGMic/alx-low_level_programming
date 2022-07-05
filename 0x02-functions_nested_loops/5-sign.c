@@ -1,50 +1,27 @@
 #include "main.h"
 
 /**
-*Checks for positive, zero and negetive numbers
+*print_sign: print the sign for the respective number
+*@n: int type
+*Description: print +, 0, or - based on the number
+*Return: 1 if +, 0 if 0, and -1 if -
 */
 
 int print_sign(int n)
 {
-if(n>0)
+if (n>0)
 {
 _putchar('+');
 return (1);
 }
-if(n==0)
+if (n==0)
 {
 _putchar('0');
 return (0);
 }
-if(n<0)
+if (n<0)
 {
 _putchar('-');
-return(-1);
+return (-1);
 }
-}
-int main(void)
-{
-int r;
-
-r = print_sign(98);
-_putchar(',');
-_putchar(' ');
-_putchar(r + '0');
-_putchar('\n');
-r = print_sign(0);
-_putchar(',');
-_putchar(' ');
-_putchar(r + '0');
-_putchar('\n');
-r = print_sign(0xff);
-_putchar(',');
-_putchar(' ');
-_putchar(r + '0');
-_putchar('\n');
-r = print_sign(-1);
-_putchar(',');
-_putchar(' ');
-_putchar(r + '0');
-_putchar('\n');
-return (0);
 }
