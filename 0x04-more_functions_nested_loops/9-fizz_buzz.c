@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*fizz_buzz - print fizz in place of 3 and buzz in place of 5
+*main - print fizz in place of 3 and buzz in place of 5
 *
 *Return: Always 0
 */
@@ -12,19 +12,23 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
-printf("FizzBuzz ");
+printf(" FizzBuzz");
 }
 else if (i % 3 == 0 && i % 5 != 0)
 {
-printf("Fizz ");
+printf(" Fizz");
 }
 else if (i % 3 != 0 && i % 5 == 0)
 {
-printf("Buzz ");
+printf(" Buzz");
+}
+else if (i == 1)
+{
+printf("%d", i);
 }
 else
 {
-printf("%d ", i);
+printf(" %d ", i);
 }
 }
 printf("\n");
