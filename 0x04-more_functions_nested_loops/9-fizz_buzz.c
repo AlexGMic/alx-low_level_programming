@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
 *fizz_buzz - print fizz in place of 3 and buzz in place of 5
