@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * main - prime numbers
- *
- * Return: Always 0.
- */
+* main - prime numbers
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 
@@ -15,7 +15,7 @@ while (1)
 
 	if (n % a == 0)
 	{
-		printf("%lu \n", n / a);
+		printf("%lu\n", n / a);
 		break;
 	}
 	a--;
