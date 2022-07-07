@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *print_triangle - prints triangle shapes
-*@size: int type of triangle size
+*@size: int type, triangle size
 *
 *Return: Always 0.
 */
@@ -16,11 +16,14 @@ else
 {
 for (i = 0; i < size; i++)
 {
-for (j = 0; j < size - 1; j++)
+for (j = i; j < size - 1; j++)
 {
 _putchar(' ');
 }
+for (j = 0; j <= i; j++)
+{
 _putchar('#');
+}
 _putchar('\n');
 }
 }
