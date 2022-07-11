@@ -16,14 +16,14 @@ len++;
 mid = len / 2;
 if (len % 2 == 0)
 {
-for (i = mid; i < len - 1; i++)
+for (i = mid; i < len; i++)
 {
 _putchar(str[i]);
 }
 }
 else
 {
-for (i = mid + 1; i < len - 1; i++)
+for (i = mid + 1; i < len; i++)
 {
 _putchar(str[i]);
 }
