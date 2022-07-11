@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*-puts - prints a given string.
+*_puts - prints a given string.
 *@str: character pointer.
 *
 *Return: Always 0.
