@@ -13,6 +13,5 @@ while (*s != '\0')
 s++;
 length++;
 }
-length = length + 1;
 return (length);
 }
