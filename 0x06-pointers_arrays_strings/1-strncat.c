@@ -9,10 +9,9 @@
 */
 char *_strncat(char *dest, char *src, int n)
 {
-int i, j, len1, len2;
+int i, j, len1, len2, sum;
 len1 = 0;
 len2 = 0;
-j = 0;
 while (dest[len1] != '\0')
 {
 len1++;
@@ -21,7 +20,9 @@ while (src[len2] != '\0')
 {
 len2++;
 }
-for (i = len1; i < len1 + n; i++)
+j = 0;
+sum = len1 + n;
+for (i = len1; i < sum; i++)
 {
 if (n <= len2)
 {
