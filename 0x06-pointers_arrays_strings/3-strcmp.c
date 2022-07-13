@@ -21,14 +21,11 @@ j++;
 }
 if (i < j)
 {
-return (-15);
+return (i - j);
 }
 else if (i > j)
 {
-return (15);
+return (i - j);
 }
-else
-{
 return (0);
-}
 }
