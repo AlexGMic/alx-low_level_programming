@@ -15,7 +15,6 @@ while(mid--)
 temp = a[i];
 a[i] = a[high - i];
 a[high - i] = temp;
-i++; 
+i++;
 }
-print_array(a, n);
 }
