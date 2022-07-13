@@ -14,9 +14,9 @@ high = n - 1;
 while (i < j)
 {
 temp = a[i];
-a[i] = a[j];
-a[j] = temp;
+a[i] = a[high];
+a[high] = temp;
 i++;
-j--;
+high--;
 }
 }
