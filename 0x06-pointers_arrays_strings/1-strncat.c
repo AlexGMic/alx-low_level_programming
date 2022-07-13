@@ -4,7 +4,6 @@
 *@dest: is the destination character pointer.
 *@src: is the source character pointer.
 *@n: number of characters to be copied.
-*
 *Return: returns the destination string pointer.
 */
 char *_strncat(char *dest, char *src, int n)
