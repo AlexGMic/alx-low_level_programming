@@ -7,7 +7,7 @@
 *
 *Return: returns the destination string pointer.
 */
-void *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int i, j, len1, len2;
 len1 = 0;
