@@ -1,10 +1,11 @@
 #include "main.h"
 /**
-*_strncat - concatenates the string by copying specified number of characters.
-*@dest: is the destination character pointer.
-*@src: is the source character pointer.
-*@n: number of characters to be copied.
-*Return: returns the destination string pointer.
+*_strncat - a function that concatenates two strings.
+*@dest: is the destination string pointer.
+*@src: is the source string pointer.
+*@n: int type length of copied character.
+*
+*Return: returns the concatenated string.
 */
 char *_strncat(char *dest, char *src, int n)
 {
