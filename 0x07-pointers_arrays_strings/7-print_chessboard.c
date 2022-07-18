@@ -6,25 +6,14 @@
  */
 void print_chessboard(char (*a)[8])
 {
-int i, j, row, col;
-i = 0;
-j = 0;
-row = 8;
-col = 8;
-char *p;
-for (p = &a[0][0]; p < &a[row][col]; p++)
+int i, j;
+for (i = 0; i < 8; i++)
 {
-if (j == col-1)
-{
-_putchar(*p);
-_putchar('\n');
-j = 0;
+	for (j = 0; j < 8; j++)
+	{
+		_putchar(a[i][j]);
+	}
+	_putchar('\n');
 }
-else
-{
-_putchar(*p);
-j++;
-}
-}
-_putchar('\n');
+
 }
