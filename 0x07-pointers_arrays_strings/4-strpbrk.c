@@ -19,5 +19,5 @@ return (s + j);
 }
 }
 }
-return ('\0');
+return (0);
 }
