@@ -18,7 +18,7 @@ else
 return (0);
 }
 }
-check(n, i + 1);
+return (0 + check(n, i + 1));
 }
 /**
  * is_prime_number - detects if a number is a prime number.
@@ -31,5 +31,5 @@ if (n <= 0 || n == 1)
 {
 return 0;
 }
-check(n, 2);
+return (check(n, 2));
 }
