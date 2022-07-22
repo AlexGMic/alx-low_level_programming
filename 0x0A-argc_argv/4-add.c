@@ -13,10 +13,9 @@ int i;
 int result = 0;
 for (i = 1; i < argc; i++)
 {
-if (0 <= atoi(argv[i] <=9)
+if (0 <= atoi(argv[i]) <=9)
 {
 result += atoi(argv[i]);
-printf("%d\n", result);
 }
 else
 {
@@ -24,5 +23,6 @@ printf("Error\n");
 return (1);
 }
 }
+printf("%d\n", result);
 return (0);
 }
