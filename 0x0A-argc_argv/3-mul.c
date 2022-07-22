@@ -13,7 +13,8 @@ int i;
 int result = 1;
 if (argc != 3)
 {
-printf("Error");
+printf("Error\n");
+return (1);
 }
 else
 {
