@@ -7,7 +7,7 @@
 *
 *Return: Always 0.
 */
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 int i;
 int result = 0;
