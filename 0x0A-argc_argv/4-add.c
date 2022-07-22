@@ -7,13 +7,13 @@
 *
 *Return: Always 0.
 */
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
 int i;
 int result = 0;
 for (i = 1; i < argc; i++)
 {
-if (0 <= atoi(argv[i]) <=9)
+if (atoi(argv[i]) >=0 && atoi(argv[i]) <= 9)
 {
 result += atoi(argv[i]);
 }
