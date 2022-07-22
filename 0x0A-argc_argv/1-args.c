@@ -6,8 +6,9 @@
 *
 *Return: Always 0.
 */
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
+(void)argv;
 printf("%d\n", argc);
 return (0);
 }
