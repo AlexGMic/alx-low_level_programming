@@ -14,7 +14,7 @@ if (width < 1 || height < 1)
 {
 return (NULL);
 }
-ptr = (int **)malloc(sizeof(int) * (height + width + 1));
+ptr = malloc(sizeof(**int) * (height + width));
 if (ptr == NULL)
 {
 free(ptr);
