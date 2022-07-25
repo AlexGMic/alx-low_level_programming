@@ -3,19 +3,14 @@
 /**
 *str_concat - concatenates two input strings.
 *@s1: the first input string.
-*s2: the seconde input string.
+*@s2: the seconde input string.
 *
 *Return: returns the concatenated string.
 */
 char *str_concat(char *s1, char *s2)
 {
-unsigned int size, total, i, j, k, m;
+unsigned int size = 0, total = 0, i = 0, j = 0, k = 0, m = 0;
 char *ptr;
-total = 0;
-size = 0;
-j = 0;
-k = 0;
-m = 0;
 if (s1 == NULL)
 {
 s1 = "\0";
