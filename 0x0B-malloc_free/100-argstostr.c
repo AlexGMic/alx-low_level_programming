@@ -23,7 +23,7 @@ char *argstostr(int ac, char **av)
 {
 int i, j, c = 0, count = 0;
 int *ptr;
-for (; i < ac; i++; count++)
+for (; i < ac; i++, count++)
 {
 count += _strlen(av[i]);
 }
