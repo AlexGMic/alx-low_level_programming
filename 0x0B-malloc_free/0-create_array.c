@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
 *create_array - used to create array of chars.
-*size: positive integer.
-*c: is the first character to initialize the array.
+*@size: positive integer.
+*@c: is the first character to initialize the array.
 *
 *Return: returns character pointer.
 */
