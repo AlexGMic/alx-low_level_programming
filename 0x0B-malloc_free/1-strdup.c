@@ -19,7 +19,7 @@ while (str[size] != '\0')
 {
 size++;
 }
-ptr = (char *) malloc((size + 1) * (sizeof(char));
+ptr = (char *)malloc(sizeof(char) * (size + 1));
 if (ptr == NULL)
 {
 return (NULL);
