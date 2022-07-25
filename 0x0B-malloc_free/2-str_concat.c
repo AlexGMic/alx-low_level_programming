@@ -7,7 +7,7 @@
 *
 *Return: returns the concatenated string.
 */
-char *str_concat(char s1, char s2)
+char *str_concat(char *s1, char *s2)
 {
 unsigned int size, total, i, j, k, m;
 char *ptr;
