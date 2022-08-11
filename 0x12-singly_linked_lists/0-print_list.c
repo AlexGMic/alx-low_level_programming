@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
 *print_list - prints all the elements and returns the number of nodes.
 *@h: singly linked list.
