@@ -19,6 +19,10 @@ else
 while (index--)
 {
 current = current->next;
+if (current == NULL)
+{
+return (0);
+}
 }
 }
 return (current);
